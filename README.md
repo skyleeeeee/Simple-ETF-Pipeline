@@ -83,6 +83,7 @@ Logs are written both to the console and to `logs/pipeline.log`. The log include
 
 ## Example Output
 
+# Console
 ```
 [INFO] 10 users ingested.
 [INFO] Ingestion successful. Data saved to data/raw/users_20250722_004027.json
@@ -96,21 +97,18 @@ Logs are written both to the console and to `logs/pipeline.log`. The log include
 [INFO] Transformation completed in 0.03s
 ```
 
----
-
-## Contributing
-
-Feel free to submit issues or pull requests for improvements.
-
----
-
-## License
-
-MIT License
-
+# Logs
 ```
-
----
-
-Would you like me to help generate a `requirements.txt` as well?
+2025-07-22 00:58:40,767 - INFO - Starting ETL pipeline
+2025-07-22 00:58:40,914 - INFO - Ingestion completed in 0.15s, saved 10 rows to data/raw/users_20250722_005840.json
+2025-07-22 00:58:40,961 - INFO - Transformation completed in 0.05s
+2025-07-22 00:58:40,962 - INFO - ETL pipeline finished successfully
+2025-07-22 00:59:41,527 - INFO - Starting ETL pipeline
+2025-07-22 00:59:41,528 - INFO - Skipping ingestion step.
+2025-07-22 00:59:41,560 - INFO - Transformation completed in 0.03s
+2025-07-22 00:59:41,561 - INFO - ETL pipeline finished successfully
+2025-07-22 01:00:31,120 - INFO - Starting ETL pipeline
+2025-07-22 01:00:31,121 - INFO - Skipping ingestion step.
+2025-07-22 01:00:31,237 - INFO - Transformation completed in 0.12s
+2025-07-22 01:00:31,238 - INFO - ETL pipeline finished successfully
 ```

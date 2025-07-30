@@ -1,6 +1,6 @@
 # Simple-ETF-Pipeline
 
-This project implements an ETL (Extract, Transform, Load) pipeline that ingests user data from a public API, validates and cleans it, then saves the processed data in CSV or Parquet format. It features robust error handling, retry logic, and detailed logging.
+This project (a package) implements an ETL (Extract, Transform, Load) pipeline that ingests user data from a public API, validates and cleans it, then saves the processed data in CSV or Parquet format. It features robust error handling, retry logic, and detailed logging.
 
 ---
 

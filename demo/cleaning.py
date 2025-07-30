@@ -171,5 +171,3 @@ def transform_and_validate(output_format="csv"):
     print(f"[INFO] Cleaned data saved to {output_path}")
 
     return output_path, final_count
-
-
